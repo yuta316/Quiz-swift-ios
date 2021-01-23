@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D611000025BBC03A00F44D5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D611FFFE25BBC03A00F44D5B /* LaunchScreen.storyboard */; };
+		D611000A25BBC1F700F44D5B /* maruSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D611000925BBC1F700F44D5B /* maruSound.mp3 */; };
+		D611000D25BBC20100F44D5B /* batsuSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D611000C25BBC20000F44D5B /* batsuSound.mp3 */; };
+		D611001A25BBCA0C00F44D5B /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611001925BBCA0C00F44D5B /* NextViewController.swift */; };
+		D611001D25BBCA6500F44D5B /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611001C25BBCA6500F44D5B /* ImagesModel.swift */; };
+		D611002025BBCB6B00F44D5B /* imagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611001F25BBCB6B00F44D5B /* imagesList.swift */; };
+		D611002325BBD3E500F44D5B /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = D611002225BBD3E500F44D5B /* AppIcon.appiconset */; };
+		D611002725BBDE2D00F44D5B /* SoundFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611002625BBDE2D00F44D5B /* SoundFile.swift */; };
+		D611002B25BBE42400F44D5B /* withoutMP3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611002A25BBE42400F44D5B /* withoutMP3.swift */; };
 		D611FFF425BBC03500F44D5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611FFF325BBC03500F44D5B /* AppDelegate.swift */; };
 		D611FFF625BBC03500F44D5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611FFF525BBC03500F44D5B /* SceneDelegate.swift */; };
 		D611FFF825BBC03500F44D5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611FFF725BBC03500F44D5B /* ViewController.swift */; };
@@ -17,6 +25,14 @@
 
 /* Begin PBXFileReference section */
 		D611000125BBC03A00F44D5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D611000925BBC1F700F44D5B /* maruSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maruSound.mp3; path = "../../../Downloads/Resources 2/iOS14画像集/QuestionApp1素材/maruSound.mp3"; sourceTree = "<group>"; };
+		D611000C25BBC20000F44D5B /* batsuSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = batsuSound.mp3; path = "../../../Downloads/Resources 2/iOS14画像集/QuestionApp1素材/batsuSound.mp3"; sourceTree = "<group>"; };
+		D611001925BBCA0C00F44D5B /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		D611001C25BBCA6500F44D5B /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImagesModel.swift; path = Quiz/Model/ImagesModel.swift; sourceTree = SOURCE_ROOT; };
+		D611001F25BBCB6B00F44D5B /* imagesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagesList.swift; sourceTree = "<group>"; };
+		D611002225BBD3E500F44D5B /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../TableView2/TableView2/Assets.xcassets/AppIcon.appiconset; sourceTree = "<group>"; };
+		D611002625BBDE2D00F44D5B /* SoundFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoundFile.swift; path = Quiz/Model/SoundFile.swift; sourceTree = SOURCE_ROOT; };
+		D611002A25BBE42400F44D5B /* withoutMP3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = withoutMP3.swift; path = Quiz/Model/withoutMP3.swift; sourceTree = SOURCE_ROOT; };
 		D611FFF025BBC03500F44D5B /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D611FFF325BBC03500F44D5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D611FFF525BBC03500F44D5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +53,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D611000F25BBC29800F44D5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D611001C25BBCA6500F44D5B /* ImagesModel.swift */,
+				D611002625BBDE2D00F44D5B /* SoundFile.swift */,
+				D611001F25BBCB6B00F44D5B /* imagesList.swift */,
+				D611002A25BBE42400F44D5B /* withoutMP3.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D611001025BBC2AB00F44D5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D611FFF925BBC03500F44D5B /* Main.storyboard */,
+				D611FFFC25BBC03A00F44D5B /* Assets.xcassets */,
+				D611002225BBD3E500F44D5B /* AppIcon.appiconset */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D611001125BBC2B600F44D5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D611FFF325BBC03500F44D5B /* AppDelegate.swift */,
+				D611FFF725BBC03500F44D5B /* ViewController.swift */,
+				D611FFF525BBC03500F44D5B /* SceneDelegate.swift */,
+				D611001925BBCA0C00F44D5B /* NextViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D611FFE725BBC03500F44D5B = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +104,13 @@
 		D611FFF225BBC03500F44D5B /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				D611FFF325BBC03500F44D5B /* AppDelegate.swift */,
-				D611FFF525BBC03500F44D5B /* SceneDelegate.swift */,
-				D611FFF725BBC03500F44D5B /* ViewController.swift */,
-				D611FFF925BBC03500F44D5B /* Main.storyboard */,
-				D611FFFC25BBC03A00F44D5B /* Assets.xcassets */,
+				D611000F25BBC29800F44D5B /* Model */,
+				D611001025BBC2AB00F44D5B /* View */,
+				D611001125BBC2B600F44D5B /* Controller */,
 				D611FFFE25BBC03A00F44D5B /* LaunchScreen.storyboard */,
 				D611000125BBC03A00F44D5B /* Info.plist */,
+				D611000C25BBC20000F44D5B /* batsuSound.mp3 */,
+				D611000925BBC1F700F44D5B /* maruSound.mp3 */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -125,7 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D611000025BBC03A00F44D5B /* LaunchScreen.storyboard in Resources */,
+				D611000A25BBC1F700F44D5B /* maruSound.mp3 in Resources */,
 				D611FFFD25BBC03A00F44D5B /* Assets.xcassets in Resources */,
+				D611000D25BBC20100F44D5B /* batsuSound.mp3 in Resources */,
+				D611002325BBD3E500F44D5B /* AppIcon.appiconset in Resources */,
 				D611FFFB25BBC03500F44D5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +189,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D611FFF825BBC03500F44D5B /* ViewController.swift in Sources */,
+				D611002725BBDE2D00F44D5B /* SoundFile.swift in Sources */,
+				D611001A25BBCA0C00F44D5B /* NextViewController.swift in Sources */,
 				D611FFF425BBC03500F44D5B /* AppDelegate.swift in Sources */,
 				D611FFF625BBC03500F44D5B /* SceneDelegate.swift in Sources */,
+				D611001D25BBCA6500F44D5B /* ImagesModel.swift in Sources */,
+				D611002025BBCB6B00F44D5B /* imagesList.swift in Sources */,
+				D611002B25BBE42400F44D5B /* withoutMP3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG67HJ66AZ;
 				INFOPLIST_FILE = Quiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.waseda.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XG67HJ66AZ;
 				INFOPLIST_FILE = Quiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +373,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.waseda.Quiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
